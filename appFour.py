@@ -12,8 +12,8 @@ import streamlit.components.v1 as components
 from keras.models import load_model
 
 
-saved_model_path = "//SavedModel//"
-model = load_model(saved_model_path)
+#saved_model_path = "//SavedModel//"
+#model = load_model(saved_model_path)
 
 
 @st.cache()
